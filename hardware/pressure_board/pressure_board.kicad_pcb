@@ -90,12 +90,13 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "07867b9d-9ead-4251-a98f-1c0c0d1ed150")
-		(at 101 53.4 90)
+		(at 99.7 62.95 -90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J5"
 			(at 0 -2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "872a99d8-dc0e-437c-b61c-f22a7ae1d6ba")
 			(effects
 				(font
@@ -116,7 +117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -129,7 +130,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -186,7 +187,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -200,11 +201,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "31b47564-8398-43f9-88cd-9462a597ed76")
-		(at 90.36 55.87)
+		(at 93.195 60.9875 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.17 0)
+			(at -1.8 0.4 180)
 			(layer "F.SilkS")
 			(uuid "95307247-c668-4ad9-9a33-a1a67cd6feca")
 			(effects
@@ -215,7 +216,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "65567912-e2cb-45c0-8f13-e84fa08a9223")
 			(effects
@@ -226,7 +227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b27857df-db0e-4339-b6ae-b0105ab05556")
@@ -237,7 +238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "573b79b9-4bc0-4821-ad12-31eea93fd447")
@@ -248,7 +249,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "169199ed-b6b8-4f62-bdd6-2295e3f309ff")
@@ -314,7 +315,7 @@
 			(uuid "9415bf18-68d4-44db-96e9-124b9357912b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "df685fe2-d9ce-4102-b53b-cde242ba356c")
 			(effects
@@ -325,7 +326,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5975 0)
+			(at -0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -334,7 +335,7 @@
 			(uuid "d09e46a4-7621-4b71-b670-fc2d6f6cf393")
 		)
 		(pad "2" smd roundrect
-			(at 0.5975 0)
+			(at 0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -358,13 +359,14 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "3be24125-0e9e-4d73-928d-4f8505eb1f88")
-		(at 101 63.6 90)
+		(at 99.7 56.9 -90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J1"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "fc122d43-ffdf-42de-8eea-d5396a781d28")
+			(hide yes)
+			(uuid "d127d8ab-dec0-44c8-8e42-6a134cc936cc")
 			(effects
 				(font
 					(size 1 1)
@@ -375,7 +377,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.54 90)
 			(layer "F.Fab")
-			(uuid "39976a92-0378-41b1-957c-6f8ce8d80f29")
+			(uuid "26224524-1262-4383-951d-ec24963dbfe4")
 			(effects
 				(font
 					(size 1 1)
@@ -384,11 +386,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "093855d0-9289-4e00-a2a5-5e0ce19dfbed")
+			(uuid "ec181828-6bf8-4cba-bda6-96caf1703678")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,11 +399,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a70c6de-33c2-4716-bab1-20bed9ffd9e0")
+			(uuid "077b9710-41d7-47e9-b16e-e267f85c8950")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +456,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -468,11 +470,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6aa1edb6-0293-4151-aee0-059c9063e3d5")
-		(at 93.43 57.83)
+		(at 94.295 57.5875 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.16 0)
+			(at 1.7 0.2 180)
 			(layer "F.SilkS")
 			(uuid "1fe61aea-3681-4f5b-86d4-7d3d372e693c")
 			(effects
@@ -483,7 +485,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "edd54d01-8c9f-4bcd-b4ce-b14978d04a63")
 			(effects
@@ -494,7 +496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b314e45-9934-421c-9634-627a16ee815d")
@@ -505,7 +507,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbe7dd2a-6e5d-4786-9111-388a936809ea")
@@ -516,7 +518,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "64e9fa0f-b0cd-4a1e-97ac-43eeeb1d906c")
@@ -528,7 +530,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -541,7 +543,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -554,7 +556,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -621,7 +623,7 @@
 			(uuid "6c704b77-f136-41da-8f95-521bc0475b17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8733c5e9-f289-4278-ace3-cedcefc0f11d")
 			(effects
@@ -632,7 +634,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -641,7 +643,7 @@
 			(uuid "55e55f16-b7f9-4459-a299-327ef5330c96")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -665,13 +667,14 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "72f648fc-6b5c-4e6c-a816-9f83fee46044")
-		(at 101 55.95 90)
+		(at 99.7 61.4 -90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J4"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "65158f6b-87f5-4ff3-a673-f84b75379dfa")
+			(hide yes)
+			(uuid "af51d836-99a0-403e-aa75-c4e3aa9682c8")
 			(effects
 				(font
 					(size 1 1)
@@ -682,7 +685,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.54 90)
 			(layer "F.Fab")
-			(uuid "49570faf-94ab-433a-ad0f-1bb526e85246")
+			(uuid "609159eb-2967-4cac-ae7f-8eec534744cc")
 			(effects
 				(font
 					(size 1 1)
@@ -691,11 +694,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3991f801-5d68-4f03-b43b-360bf46dcbcd")
+			(uuid "2fc48f24-e239-429d-bbac-09847c8f87c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,11 +707,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "292c9cf9-c181-48e3-adf7-cf942e37d3b4")
+			(uuid "d6c81a7b-39d7-4388-9a94-a82930bad8b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +764,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -775,11 +778,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7f5f58db-b8ca-4123-997d-a31c9dc81688")
-		(at 93.43 55.86)
+		(at 93.195 58.5875 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 0)
+			(at 1.6 -0.3 180)
 			(layer "F.SilkS")
 			(uuid "45c16656-a201-4b2d-bba1-163d10702dc4")
 			(effects
@@ -790,7 +793,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "e98e734a-9d60-4d9d-9116-f2f8c5b142c5")
 			(effects
@@ -801,7 +804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59cc7def-b92f-49ba-bbd1-02da95b11fbc")
@@ -812,7 +815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa1b5ce0-dadd-41e4-8de6-8613c19ebe9c")
@@ -823,7 +826,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "451ecf4f-8892-4a55-8f04-b96cda12ef1d")
@@ -835,7 +838,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -848,7 +851,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -861,7 +864,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -928,7 +931,7 @@
 			(uuid "a52c3469-16f4-48d3-a58c-9fca99704057")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "0f3fa04a-06c7-4db0-ad30-a1f21d5751e4")
 			(effects
@@ -939,7 +942,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -948,7 +951,7 @@
 			(uuid "99510883-5720-481b-b32c-5d487d4270a0")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -972,13 +975,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ba79e9fd-022c-4863-898a-694b924e7aa4")
-		(at 90.36 57.86)
+		(at 95.895 61.6875 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "7d31229d-3263-49e7-9eb9-3dbc6161ece4")
+			(uuid "e1a3ca9d-d80e-4c7e-9588-87740fd3e53a")
 			(effects
 				(font
 					(size 1 1)
@@ -989,7 +992,7 @@
 		(property "Value" "4.7K"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "b11500fb-5372-477d-a3cb-822686b38f88")
+			(uuid "9a512927-9060-46ab-8f1c-7f64e063c931")
 			(effects
 				(font
 					(size 1 1)
@@ -1001,7 +1004,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58e2489c-2570-4118-a5fb-6cb5049aea6e")
+			(uuid "b8a1f67a-a650-4555-b48d-a2459ba265c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1015,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "980acc41-a9c2-484e-87cd-5f7d92928475")
+			(uuid "6b889209-8a58-4400-a14d-8aaacab52d50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,16 +1047,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.167621 -0.38)
-			(end 0.167621 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0f7bec77-ed41-4daf-bce7-1397c5066906")
-		)
-		(fp_line
 			(start -0.167621 0.38)
 			(end 0.167621 0.38)
 			(stroke
@@ -1062,6 +1055,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "685d3c34-4da3-44e5-8d14-97709da9fb8c")
+		)
+		(fp_line
+			(start -0.167621 -0.38)
+			(end 0.167621 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f7bec77-ed41-4daf-bce7-1397c5066906")
 		)
 		(fp_rect
 			(start -1.11 -0.47)
@@ -1097,7 +1100,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5975 0)
+			(at -0.5975 0 180)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1106,7 +1109,7 @@
 			(uuid "fd8d2190-1ddb-4c93-85bb-7f920e3bd659")
 		)
 		(pad "2" smd roundrect
-			(at 0.5975 0)
+			(at 0.5975 0 180)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1130,13 +1133,13 @@
 	(footprint "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 		(layer "F.Cu")
 		(uuid "d833563b-e58d-4119-89dc-8b4b8140317b")
-		(at 93.805 60.675)
+		(at 95 59.8625)
 		(descr "ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps22hh.pdf#page=55)")
 		(tags "ST HLGA NoLead")
 		(property "Reference" "U1"
-			(at 0 -1.95 0)
+			(at 0.795 -2.075 0)
 			(layer "F.SilkS")
-			(uuid "61573f6f-5df8-460d-bd7f-1df056e090ed")
+			(uuid "24eda412-e2be-4306-905d-1f80b0a23035")
 			(effects
 				(font
 					(size 1 1)
@@ -1147,7 +1150,7 @@
 		(property "Value" "BMP384"
 			(at 0 1.95 0)
 			(layer "F.Fab")
-			(uuid "4d4fa3b9-d670-4e98-a43a-290c6fecbf61")
+			(uuid "6b7a04ea-83ce-4cec-9c80-669b77ad03b7")
 			(effects
 				(font
 					(size 1 1)
@@ -1159,7 +1162,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bb1c009-666c-4955-a35c-375d675c40b5")
+			(uuid "34a67cf0-3e00-495e-a960-1f43c521f49c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1173,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c31c2e0-0655-467e-b2da-3824b30c4db5")
+			(uuid "dfd2506c-bfe7-4e67-9f48-bbc8e3470056")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1238,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "2" "4" "5" "6" "7" "1" "3" "10")
+				(pins "2" "4" "5" "6" "7" "1" "10" "3" "8" "9")
 			)
 		)
 		(attr smd)
@@ -1431,6 +1434,9 @@
 			(size 0.35 0.425)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_8")
+			(pintype "power_in")
 			(uuid "fbdc6540-6e1e-4468-bea8-a1dfb539698a")
 		)
 		(pad "9" smd roundrect
@@ -1438,6 +1444,9 @@
 			(size 0.35 0.425)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_9")
+			(pintype "power_in")
 			(uuid "436700e7-ed10-4578-822f-9e513300a697")
 		)
 		(pad "10" smd roundrect
@@ -1466,13 +1475,14 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "f09883df-3981-48f4-ab07-91f8c69d322c")
-		(at 101 58.5 90)
+		(at 99.7 59.9 -90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J3"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "e703b6a1-bd7f-4ad3-9494-f6a4537ddfaf")
+			(hide yes)
+			(uuid "4970f2c9-c472-4443-b429-44d5fc2ed6d5")
 			(effects
 				(font
 					(size 1 1)
@@ -1483,7 +1493,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.54 90)
 			(layer "F.Fab")
-			(uuid "c0f38bc0-5ff8-419e-a21d-b84b6ed28e80")
+			(uuid "9575b9a9-4221-40be-8f2f-c2b3175baa36")
 			(effects
 				(font
 					(size 1 1)
@@ -1492,11 +1502,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3dda4d1-b1f0-4835-a839-cd0be6d71305")
+			(uuid "71e4f776-059b-4144-807d-c74f021e2f37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,11 +1515,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bc9ae1e-92ed-46ec-8e29-c813a00120d6")
+			(uuid "9e88d5a8-fb8e-427f-a638-3b4b6ab4756a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1572,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1576,13 +1586,14 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "fd308a7a-6344-460f-98bd-dfe88cb89fc2")
-		(at 101 61.05 90)
+		(at 99.7 58.4 -90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J2"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "589c007c-2a37-4665-bac0-d902de449e3c")
+			(hide yes)
+			(uuid "9090a012-ac6d-4d42-bb2e-9c94740dba92")
 			(effects
 				(font
 					(size 1 1)
@@ -1593,7 +1604,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.54 90)
 			(layer "F.Fab")
-			(uuid "274e17ec-8e82-49c0-81ac-ecdb9ae00560")
+			(uuid "c8778d14-5f18-4e5a-88dc-c4a7f9011f40")
 			(effects
 				(font
 					(size 1 1)
@@ -1602,11 +1613,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "008224fc-092f-4ffe-ab6d-be7c13f99fb1")
+			(uuid "4e8945fb-a501-4e13-ae4b-567ac245eb78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,11 +1626,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ca15cae-8832-4416-8848-0ec80f902d64")
+			(uuid "36daaa95-250a-480c-9c9b-89338881821a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1683,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1682,6 +1693,17 @@
 			(uuid "e98e50fa-5694-493d-ab04-2eb5922dd2ea")
 		)
 		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 91 55)
+		(end 101 65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "7fd08c1a-327d-4784-a664-501a6fc242da")
 	)
 	(embedded_fonts no)
 )
