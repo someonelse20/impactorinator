@@ -1694,6 +1694,86 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 97.8 56.1)
+		(end 101 56.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "824d30ec-5772-421e-aa6e-56e117709abe")
+	)
+	(gr_line
+		(start 97.8 63.7)
+		(end 97.8 56.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ceedbf04-485a-4a5b-a287-5a3d3b4412ad")
+	)
+	(gr_line
+		(start 101 56.1)
+		(end 101 63.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ad59b641-0f4e-453b-8b44-b3edd28afcc3")
+	)
+	(gr_line
+		(start 101 57.7)
+		(end 97.8 57.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "071ee874-6dca-4446-a3f6-1b4eb70164eb")
+	)
+	(gr_line
+		(start 101 59.2)
+		(end 97.8 59.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "41322a79-4b02-4337-a153-a4f6a11aa33f")
+	)
+	(gr_line
+		(start 101 60.7)
+		(end 97.8 60.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "43be0bf5-92fc-4cf6-8682-50efa4a0361c")
+	)
+	(gr_line
+		(start 101 62.2)
+		(end 97.8 62.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "54e12e65-72d8-45b9-9f17-f9d361b16c89")
+	)
+	(gr_line
+		(start 101 63.7)
+		(end 97.8 63.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f62a2dc7-656f-4357-bbcd-67ee05a3ccae")
+	)
 	(gr_rect
 		(start 91 55)
 		(end 101 65)
@@ -1704,6 +1784,66 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "7fd08c1a-327d-4784-a664-501a6fc242da")
+	)
+	(gr_text "INT"
+		(at 100.6 62.1 0)
+		(layer "B.SilkS")
+		(uuid "2e08d876-ba4b-4d63-8daf-d295f991ab2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "VDD"
+		(at 100.9 57.5 0)
+		(layer "B.SilkS")
+		(uuid "8e65c7de-3bf7-4894-8c59-460ae7973e1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 100.9 59.1 0)
+		(layer "B.SilkS")
+		(uuid "76e98228-bb6c-404e-9edb-a220066d6f2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 100.9 60.6 0)
+		(layer "B.SilkS")
+		(uuid "e3a1a6c5-f1b5-4c88-9d1c-fec970c9ee2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 101 63.6 0)
+		(layer "B.SilkS")
+		(uuid "5e61118c-38b6-446c-b23f-bbc83261a616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 95 59.8)
