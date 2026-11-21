@@ -435,30 +435,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 10.16 0)
+			(property "Reference" "U1"
+				(at 9.398 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "BMP384"
-				(at 5.08 10.16 0)
+				(at 9.398 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
-				(at -1.27 -17.78 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -469,7 +469,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp384-ds003.pdf"
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -480,6 +480,39 @@
 				)
 			)
 			(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "BMP384"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.2_DVDD" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.2_VREG_LX" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -563,7 +596,7 @@
 					)
 				)
 				(pin power_in line
-					(at 3.81 -10.16 90)
+					(at 6.35 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -653,16 +686,17 @@
 					)
 				)
 				(pin power_in line
-					(at 6.35 10.16 270)
+					(at 6.35 -10.16 90)
 					(length 2.54)
-					(name "VDD"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -673,7 +707,26 @@
 				(pin power_in line
 					(at 6.35 -10.16 90)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 10.16 270)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -989,12 +1042,6 @@
 		(uuid "a08b460b-740a-47d7-b93e-66603b57edfd")
 	)
 	(junction
-		(at 97.79 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd4c3f00-e40c-4f32-996b-209e0d0fd55f")
-	)
-	(junction
 		(at 69.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1009,16 +1056,6 @@
 			(type default)
 		)
 		(uuid "075ca329-0c07-4193-9aee-a783e687c393")
-	)
-	(wire
-		(pts
-			(xy 96.52 72.39) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b98b24-afae-4c22-8207-625fec0d082d")
 	)
 	(wire
 		(pts
@@ -1049,26 +1086,6 @@
 			(type default)
 		)
 		(uuid "2985b9cb-b3f9-4d54-8ce2-4005ef53e891")
-	)
-	(wire
-		(pts
-			(xy 96.52 71.12) (xy 96.52 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bac936f-e84e-42b3-a705-e35fd5b6d521")
-	)
-	(wire
-		(pts
-			(xy 97.79 72.39) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6fd1ea-71ab-4940-b4d0-a8aaf3d9f70e")
 	)
 	(wire
 		(pts
@@ -1389,16 +1406,6 @@
 			(type default)
 		)
 		(uuid "cdde9ac0-fb8b-4e65-8ccc-7ab177d6a9d7")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27b1223-0214-41c1-ac68-fa8048c8a620")
 	)
 	(wire
 		(pts
@@ -2041,8 +2048,11 @@
 		(pin "3"
 			(uuid "c68b0253-ec42-4996-b6be-c11ff0260628")
 		)
-		(pin "10"
+		(pin "9"
 			(uuid "35153901-e76d-4e67-a882-857e7c6ae5bf")
+		)
+		(pin "8"
+			(uuid "4deab268-55ec-4863-8ff0-65981667404e")
 		)
 		(instances
 			(project "pressure_board"
@@ -2327,7 +2337,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 73.66 0)
+		(at 99.06 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2337,7 +2347,7 @@
 		(dnp no)
 		(uuid "79abd979-d912-46c8-9b67-dabae248780a")
 		(property "Reference" "#PWR032"
-			(at 97.79 80.01 0)
+			(at 99.06 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,7 +2358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 77.47 0)
+			(at 99.06 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2358,7 +2368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 73.66 0)
+			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 73.66 0)
+			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,7 +2390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 73.66 0)
+			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

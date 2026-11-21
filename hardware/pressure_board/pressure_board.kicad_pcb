@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A5")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -90,7 +90,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "07867b9d-9ead-4251-a98f-1c0c0d1ed150")
-		(at 11.775 -1.975 90)
+		(at 101 53.4 90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J5"
@@ -200,7 +200,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "31b47564-8398-43f9-88cd-9462a597ed76")
-		(at 1.135 0.495)
+		(at 90.36 55.87)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -358,7 +358,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "3be24125-0e9e-4d73-928d-4f8505eb1f88")
-		(at 11.775 8.225 90)
+		(at 101 63.6 90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J1"
@@ -468,7 +468,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6aa1edb6-0293-4151-aee0-059c9063e3d5")
-		(at 4.205 2.455)
+		(at 93.43 57.83)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -665,7 +665,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "72f648fc-6b5c-4e6c-a816-9f83fee46044")
-		(at 11.775 0.575 90)
+		(at 101 55.95 90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J4"
@@ -775,7 +775,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7f5f58db-b8ca-4123-997d-a31c9dc81688")
-		(at 4.205 0.485)
+		(at 93.43 55.86)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -972,7 +972,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ba79e9fd-022c-4863-898a-694b924e7aa4")
-		(at 1.135 2.485)
+		(at 90.36 57.86)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -1130,7 +1130,7 @@
 	(footprint "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 		(layer "F.Cu")
 		(uuid "d833563b-e58d-4119-89dc-8b4b8140317b")
-		(at 4.58 5.3)
+		(at 93.805 60.675)
 		(descr "ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps22hh.pdf#page=55)")
 		(tags "ST HLGA NoLead")
 		(property "Reference" "U1"
@@ -1466,7 +1466,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "f09883df-3981-48f4-ab07-91f8c69d322c")
-		(at 11.775 3.125 90)
+		(at 101 58.5 90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J3"
@@ -1576,7 +1576,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "fd308a7a-6344-460f-98bd-dfe88cb89fc2")
-		(at 11.775 5.675 90)
+		(at 101 61.05 90)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
 		(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J2"
